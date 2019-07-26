@@ -30,7 +30,8 @@ bindsym $mod+Shift+q kill
 # auto exec
 exec_always --no-startup-id ~/.config/polybar/launch.sh 
 exec_always --no-startup-id compton -b --config ~/.config/compton/compton.conf
-exec_always --no-startup-id dunst
+exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
+
 exec --no-startup-id nm-applet
 
 exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpaper.jpg
