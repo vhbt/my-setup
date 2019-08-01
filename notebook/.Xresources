@@ -1,0 +1,66 @@
+rofi.color-window: argb:c82d303b, #7c8389, #1d1f21
+rofi.color-normal: argb:3c1d1f21, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
+rofi.color-urgent: argb:2c1d1f21, #cc6666, argb:e54b5160, #a54242, #f9f9f9
+rofi.color-active: argb:2c1d1f21, #65acff, argb:e44b5160, #4491ed, #f9f9f9
+rofi.lines: 8
+rofi.columns: 1
+rofi.bw: 0
+rofi.eh: 1
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+
+! special
+*.foreground:   #bbd7d1
+*.background:   #080b0b
+*.cursorColor:  #bbd7d1
+ 
+! black
+*.color0:       #101413
+*.color8:       #fb689b
+ 
+! red
+*.color1:       #181e1d
+*.color9:       #f95191
+ 
+! green
+*.color2:       #00f8d4
+*.color10:      #0e9181
+ 
+! yellow
+*.color3:       #648781
+*.color11:      #4596c2
+ 
+! blue
+*.color4:       #6ea595
+*.color12:      #419d8e
+ 
+! magenta
+*.color5:       #5aa193
+*.color13:      #b58c4e
+ 
+! cyan
+*.color6:       #9fb7b2
+*.color14:      #3fa393
+ 
+! white
+*.color7:       #cae9e2
+*.color15:      #0f85b3
+ 
+ 
+! === URxvt ===
+URxvt.perl-ext-common: clipboard
+ 
+!copy + paste
+URxvt.clipboard.autocopy: true
+ 
+! set transparent background (real transparency using composite manager compton)
+URxvt.depth: 32
+ 
+! remove scrollbar
+URxvt.scrollBar: false
+ 
+! internalBorder
+URxvt.internalBorder:10
+
+! font
+URxvt.font: xft:Mononoki:size=10, xft:FontAwesome:size=10, xft:CodeNewRoman Nerd Font Mono:size=10
